@@ -6,6 +6,9 @@ Info + Demo: http://sophilabs.github.com/jquery-counter
 
 A jQuery counter based on http://code.google.com/p/jquery-countdown with more options.
 
+## Bower
+You can install via bower with
+**`bower install jquery-counter`**
 
 ## Options
 Options can be set by attribute `data-<name>="value"` or in the options hash on counter initialization: `$(element).counter({name: value, ...})`
