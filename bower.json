@@ -12,13 +12,6 @@
   },
   "devDependencies": {},
   "license": "MIT",
-  "main": [
-    "src/jquery.counter.js",
-    "src/jquery.counter-analog.css",
-    "src/jquery.counter-analog.png",
-    "src/jquery.counter-analog2.png",
-    "src/jquery.counter-analog2.css",
-    "src/jquery.counter-analog3.png",
-    "src/jquery.counter-analog3.css"
-  ]
+  "main": "src/jquery.counter.js",
+  "ignore":""
 }
