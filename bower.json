@@ -1,20 +1,29 @@
 {
-  "name": "jquery-counter",
-  "homepage": "https://github.com/Crysalist/jquery-counter",
-  "authors": [
-    "Crysalist <vaalseun@gmail.com>"
-  ],
-  "description": "A jQuery Counter Plugin.",
-  "main": "jquery.counter.js",
-  "keywords": [
-    "countdown"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "jquery-counter",
+    "homepage": "https://github.com/Crysalist/jquery-counter",
+    "authors": [
+        "Crysalist <vaalseun@gmail.com>"
+    ],
+    "description": "A jQuery Counter Plugin.",
+    "main": "jquery.counter.js",
+    "keywords": [
+        "countdown"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "main": [
+        "src/jquery.counter-analog.css",
+        "src/jquery.counter-analog.png",
+        "src/jquery.counter-analog2.css",
+        "src/jquery.counter-analog2.png",
+        "src/jquery.counter-analog3.css",
+        "src/jquery.counter-analog3.png",
+        "src/jquery.counter.js"
+    ]
 }
