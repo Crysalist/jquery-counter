@@ -20,10 +20,5 @@
     "src/jquery.counter-analog2.css",
     "src/jquery.counter-analog3.png",
     "src/jquery.counter-analog3.css"
-  ],
-  "ignore": [
-    "*.json",
-    "examples",
-    "*.md"
   ]
 }
