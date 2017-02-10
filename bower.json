@@ -1,17 +1,20 @@
 {
-    "name": "jquery-counter",
-    "description": "A jQuery Counter Plugin.",
-    "version": "0.2.1",
-    "keywords": ["countdown", "counter"],
-    "homepage": "http://sophilabs.github.com/jquery-counter/",
-    "authors": [
-        { "name": "sophilabs", "email": "contact@sophilabs.com" }
-    ],
-    "dependencies": {
-        "jquery": ">= 1.7"
-    },
-    "devDependencies": {},
-    "license": "MIT",
-    "main": "src/jquery.counter.js",
-    "ignore": []
+  "name": "jquery-counter",
+  "homepage": "https://github.com/Crysalist/jquery-counter",
+  "authors": [
+    "Crysalist <vaalseun@gmail.com>"
+  ],
+  "description": "A jQuery Counter Plugin.",
+  "main": "jquery.counter.js",
+  "keywords": [
+    "countdown"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
