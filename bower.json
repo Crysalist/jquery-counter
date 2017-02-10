@@ -21,8 +21,7 @@
     "./src/jquery.counter-analog3.png",
     "./src/jquery.counter-analog3.css"
   ],
-  "ignore": [
-    "*/.*",
+  "ignore": [   
     "*.json",
     "examples",
     "*.md"
