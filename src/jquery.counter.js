@@ -23,23 +23,25 @@
     var tick = function() {
         var e = $(this);
         var data = e.data('counter');
-        var i = data.parts.length - 1;
-        while(i >= 0) {
-            var part = data.parts[i];
-            part.value += data.down ? -1 : 1;
-            if (data.down && part.value < 0) {
-                part.value = part.limit;
-            } else if (!data.down && part.value > part.limit) {
-                part.value = 0;
-            } else {
-                break;
-            }
-            i--;
-        }
-        refresh(e, i);
-        if (checkStop(data)) {
-            clearInterval(data.intervalId);
-            e.trigger("counterStop");
+        if (typeof data != 'undefined') {
+           var i = data.parts.length - 1;
+           while(i >= 0) {
+               var part = data.parts[i];
+               part.value += data.down ? -1 : 1;
+               if (data.down && part.value < 0) {
+                   part.value = part.limit;
+               } else if (!data.down && part.value > part.limit) {
+                   part.value = 0;
+               } else {
+                   break;
+               }
+               i--;
+           }
+           refresh(e, i);
+           if (checkStop(data)) {
+               clearInterval(data.intervalId);
+               e.trigger("counterStop");
+           }
         }
     };
 
